@@ -11,7 +11,7 @@
 4. Select the dist folder in the root directory
 5. Click on the extension icon in the browser to use the extension
 
-# How to use Oasis library
+# How to use Design library
 Have all the design system typography and colors implemented.
 
 To use this :
