@@ -1,0 +1,11 @@
+.popup-container {
+  width: 1000px;
+  min-height: 500px;
+  padding: 16px;
+  .buttons {
+    display: flex;
+    button:first-of-type {
+      margin-right: 5px;
+    }
+  }
+}

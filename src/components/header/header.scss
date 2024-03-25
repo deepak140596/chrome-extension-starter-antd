@@ -1,0 +1,31 @@
+/* Header.scss */
+.header {
+  padding: 12px;
+  border-bottom: 1px solid #e0dfdf;
+  position: sticky;
+  left: 0;
+  top: 0;
+  background-color: white;
+  z-index: 500;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close-button {
+  font-size: 18px;
+  color: black;
+
+  &:hover {
+    color: #333;
+  }
+}

@@ -1,0 +1,748 @@
+@import '/src/library/colors.scss';
+$REGULAR :300;
+$SEMIBOLD: 400;
+$BOLD: 700;
+$EXTRABOLD: 900;
+
+@mixin h1-regular($color) {
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h1-semiBold($color) {
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h1-bold($color) {
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h1-extraBold($color) {
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h2-regular($color) {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h2-semiBold($color) {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h2-bold($color) {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h2-extraBold($color) {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h3-regular($color) {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h3-semiBold($color) {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h3-bold($color) {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h3-extraBold($color) {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h4-regular($color) {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h4-semiBold($color) {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h4-bold($color) {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h4-extraBold($color) {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h5-regular($color) {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h5-semiBold($color) {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h5-bold($color) {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h5-extraBold($color) {
+    font-size: 2.625rem;
+    line-height: 3rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h6-regular($color) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h6-semiBold($color) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h6-bold($color) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h6-extraBold($color) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h7-regular($color) {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h7-semiBold($color) {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h7-bold($color) {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h7-extraBold($color) {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h8-regular($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h8-semiBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h8-bold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h8-extraBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h9-regular($color) {
+    font-size: 1.3125rem;
+    line-height: 1.5rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h9-semiBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.5rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h9-bold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.5rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h9-extraBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.5rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h10-regular($color) {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h10-semiBold($color) {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h10-bold($color) {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h10-extraBold($color) {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h11-regular($color) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h11-semiBold($color) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h11-bold($color) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h11-extra-tiny-bold($color) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h11-extraBold($color) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin h12-regular($color) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin h12-semiBold($color) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin h12-bold($color) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin h12-extraBold($color) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin tiny-regular($color) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin tiny-semiBold($color) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin tiny-bold($color) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin tiny-extraBold($color) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin x-large-regular($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin x-large-semiBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin x-large-bold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin x-large-extraBold($color) {
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin large-regular($color) {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin large-semiBold($color) {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin large-bold($color) {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin large-extraBold($color) {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin small-regular($color) {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin small-semiBold($color) {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin small-bold($color) {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin small-extraBold($color) {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin body-regular($color) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin body-semiBold($color) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin body-bold($color) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin body-extraBold($color) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin x-tiny-regular($color) {
+    font-size: 0.6875rem;
+    line-height: 1.125rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin x-tiny-semiBold($color) {
+    font-size: 0.6875rem;
+    line-height: 1.125rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin x-tiny-bold($color) {
+    font-size: 0.6875rem;
+    line-height: 1.125rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin x-tiny-extraBold($color) {
+    font-size: 0.6875rem;
+    line-height: 1.125rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin overline-regular($color) {
+    font-size: 0.625rem;
+    line-height: 1rem;
+    font-weight: $REGULAR;
+    color: $color;
+}
+
+@mixin overline-semiBold($color) {
+    font-size: 0.625rem;
+    line-height: 1rem;
+    font-weight: $SEMIBOLD;
+    color: $color;
+}
+
+@mixin overline-bold($color) {
+    font-size: 0.625rem;
+    line-height: 1rem;
+    font-weight: $BOLD;
+    color: $color;
+}
+
+@mixin overline-extraBold($color) {
+    font-size: 0.625rem;
+    line-height: 1rem;
+    font-weight: $EXTRABOLD;
+    color: $color;
+}
+
+@mixin row-flex($justify-content, $align-items, $gap: 0px) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+    flex-direction: row;
+}
+
+@mixin column-flex($justify-content, $align-items, $gap: 0px) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+    flex-direction: column;
+}
+
+@mixin btn-primary($size: 'S') {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background-color: $primaryGray1;
+    border: 1px solid $primaryGray1;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0 1rem 0 1rem;
+    @include small-bold($white);
+
+    @if $size =='L' {
+        height: 3rem;
+    }
+
+    @else if $size =='M' {
+        height: 2.5rem;
+    }
+
+    @else {
+        height: 2rem;
+    }
+
+    &:hover {
+        background-color: $primaryGray4;
+        border: 1px solid $primaryGray4;
+        cursor: pointer;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.6;
+        pointer-events: none;
+        background-color: $primaryGray4;
+        padding: 0 1rem 0 1rem;
+        @include small-bold($white);
+    }
+}
+
+@mixin btn-secondary($size: 'S') {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background-color: $white;
+    border: 1px solid $primaryGray1;
+    padding: 0 1rem 0 1rem;
+    box-shadow: none;
+    text-shadow: none;
+    @include small-bold($primaryGray1);
+
+    @if $size =='L' {
+        height: 3rem;
+    }
+
+    @else if $size =='M' {
+        height: 2.5rem;
+    }
+
+    @else {
+        height: 2rem;
+    }
+
+    &:hover {
+        background-color: $primaryGray15;
+        border: 1px solid $primaryGray15;
+        cursor: pointer;
+
+        @include small-bold($primaryGray1);
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.6;
+        pointer-events: none;
+        background-color: $white;
+        @include small-bold($primaryGray1);
+    }
+}
+
+@mixin btn-tertiary($size: 'S') {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    padding: 0 1rem 0 1rem;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    @include small-bold($primaryGray1);
+
+    @if $size =='L' {
+        height: 3rem;
+    }
+
+    @else if $size =='M' {
+        height: 2.5rem;
+    }
+
+    @else {
+        height: 2rem;
+    }
+
+    &:hover {
+        background-color: transparent;
+        cursor: pointer;
+        @include small-bold($primaryGray1);
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.6;
+        pointer-events: none;
+        background-color: transparent;
+        @include small-bold($primaryGray1);
+    }
+}
+
+@mixin btn-link-text($color: $tertiaryBlue5) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    text-shadow: none;
+    @include small-bold($color);
+
+
+    &:hover {
+        background-color: transparent;
+        cursor: pointer;
+        @include small-bold($color);
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.6;
+        pointer-events: none;
+        background-color: transparent;
+        @include small-bold($primaryGray11);
+    }
+}
+
+@mixin custom-input-field($size: 'S') {
+
+    input[type='text'] {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: 1px solid $primaryGray15;
+        border-radius: 0.25rem;
+        outline: none;
+        @include tiny-semiBold($primaryGray1);
+
+        &::placeholder {
+            @include tiny-semiBold($primaryGray7);
+        }
+
+        &:focus {
+            border: 1px solid $primaryGray2;
+        }
+
+        @if $size =='L' {
+            height: 3rem;
+        }
+
+        @else if $size =='M' {
+            height: 2.5rem;
+        }
+
+        @else {
+            height: 2rem;
+        }
+    }
+
+    label {
+        @include tiny-semiBold($primaryGray2);
+    }
+}
+
+@mixin sticky($position: sticky, $top: 0, $z-index: 100) {
+    position: $position;
+    top: $top;
+    z-index: $z-index;
+}

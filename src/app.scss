@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+@import '/src/library/colors.scss';
+@import '/src/library/mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  height: 600px;
+  width: 800px;
+  font-family: 'Lato', sans-serif;
+
+  div#popup {
+    overflow: hidden;
+  }
+
+}
+
+.ant-modal-footer {
+
+  @include row-flex(flex-end, center);
+
+  button.ant-btn-default {
+    @include btn-secondary()
+  }
+
+  button.ant-btn-primary {
+    @include btn-primary()
+  }
+
+
+}
+
+button {
+
+  &:focus-visible,
+  &:focus-within,
+  &:focus {
+    outline: none !important
+  }
+}
